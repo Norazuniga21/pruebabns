@@ -6,7 +6,7 @@
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./recursos/imagenes/logoSanitos.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -19,8 +19,16 @@
     "ios": {
       "supportsTablet": true
     },
+    "android": {
+      "package": "com.sanitos.sanitos",
+      "versionCode": 1
+    },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "facebookScheme": "fb313331253421224",
+    "facebookAppId": "313331253421224",
+    "facebookDisplayName": "Sanitos",
+    "facebookAutoInitEnabled": false
   }
 }
